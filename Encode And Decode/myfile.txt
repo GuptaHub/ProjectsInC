@@ -1,0 +1,76 @@
+We propose novel software for a silent speech interface (SSI) that uses deep learning for subvocal recognition
+(SVR) to receive input and communicate with internet-enabled devices. Our goal is to create a non-invasive
+brain-computer interface that encourages proliferation of AI assistants. EMG electrodes sit along the jawline
+of the user and record neuromuscular subvocalization activity to interpret silent speech. Signals are then
+amplified through a hardware board, processed in a data pipeline, and then passed to a machine learning
+model which predicts what the user intends to say. Using a variant of EEGNet as a baseline, we propose to
+create ML models that have phonetic recognition capabilities and can transcribe novel words and sentences in
+real-time. Since our technology taps directly into subvocalized thoughts, we believe this interface can become
+a fast and organic medium for communication with computers, AIs, and other humans.The objective of this project is to utilize modern
+deep learning work to fill in the gaps of current
+EMG signal analysis research. According to a
+recent review of physiological signal research [4],
+less than 10 papers were published in 2019 taking
+advantage of deep learning for EMG.
+Instead, much EMG signal analysis still utilizes
+classical filtering techniques that have significantly
+lower discriminative ability than neural networks.
+Meltzner et al., 2017 [6] achieved 89% accuracy on
+a 2500 word vocabulary using Markov Models and
+Linear Discriminant Analysis, which lay between
+classical and deep learning techniques. Papers
+which use deep learning [2] have not yet developed
+architectures complex enough to learn such large
+vocabularies.
+Our specific use-case to be investigated will be
+subvocal recognition, an approach by which
+subvocalized thoughts can be parsed much like
+
+standard speech recognition. We will experiment
+with modern deep learning architectures such as
+transformers and variational autoencoders to
+develop a subvocal recognition model. We would
+also like to further the state of the art in applied
+silent speech by utilizing our increases in accuracy
+to interface with modern web technologies like
+voice assistants. This is effectively the modern
+equivalent of Jorgensen et al, 2005 [7] which could
+recognize 6 subvocalized words in order to
+interface with a simple web browser.
+The overarching objective is to facilitate a
+versatile silent speech interface serving as a fast
+and organic medium for communication without
+invasive hardware.As the capability of deep learning has increased
+in recent years, voice assistants have advanced
+alongside natural language processing. However,
+there are constraints to usage of voice assistants
+such as privacy and social norms, hindering
+widespread adoption. Silent speech interfaces
+provide an opportunity for this technology to be
+truly utilized to its fullest potential. Our research
+into deep learning for SVR will improve the
+accuracy of SSIs, thereby enabling new use cases.
+SSI technology will empower not only those who
+desire to converse discreetly but also those who are
+physically unable to communicate through speech.
+In addition, as the situation of the global pandemic
+continues to affect our daily lives, this technology
+will allow for another mode of communication that
+requires no physical contact or aerosols.NeuroTechSC is NeuroTechX’s student chapter
+at the University of California, Santa Cruz. The
+research group consists of 30 students divided into
+five teams, each responsible for a different aspect
+of the project: Hardware, Data, Machine Learning,
+and UI. Each team has between five to eight
+members and all are UCSC undergraduate students.
+Our Hardware team is responsible for assembling
+electronics, 3D designs, and taking recordings with
+our custom 3D printed EMG headset. The Data
+team develops pipelines to connect various parts of
+the project as well as cleaning and preprocessing.
+The Machine Learning team architects and trains
+neural networks to recognize subvocalizations from
+signal data. The UI team is creating web interfaces
+for recording and testing, as well as integrations
+with voice assistants and other novel web
+applications.
